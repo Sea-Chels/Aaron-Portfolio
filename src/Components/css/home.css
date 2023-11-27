@@ -1,0 +1,17 @@
+#home-container{
+    display: flex;  
+    justify-content: center;
+    margin-top: 20vh;
+    padding-bottom: 50vh;
+}
+#home-text{
+    text-decoration: none;
+    font-family: var(--third-font);
+    color: var(--light);
+    font-size: 3em;
+    text-align: center;
+    transform: scale(1, 1.25);
+}
+#home-text :hover{
+    border-bottom: var(--light) solid 1px;
+}

@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import Home from './Components/Home';
+import Works from './Components/Works';
+import Story from './Components/Story';
+import Contact from './Components/Contact';
+import Shop from './Components/Shop';
+import NoPage from './Components/NoPage';
+import Illustrations from "./Components/Illustrations";
+import Walls from "./Components/Walls";
+import Canvases from "./Components/Canvases";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+        <Route path="/works" element={<Works />} />
+          <Route path="/works/wall" element={<Walls />} />
+          <Route path="/works/illustration" element={<Illustrations  />} />
+          <Route path="/works/canvas" element={<Canvases />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="*" element={<NoPage />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 

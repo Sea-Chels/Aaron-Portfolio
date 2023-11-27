@@ -1,0 +1,25 @@
+.story-container{
+    color: white;
+}
+.story-hero {
+    display: flex;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(169, 255, 151, 0.3)), url('../../Media/profile-photo.png');
+    height: 85vh;
+    width: 100vw;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+#story-title, .story-content h1,.divider{
+    text-align: center !important;
+    font-family: var(--main-font);
+    font-size: 3em;
+    line-height: 0px;
+}
+.story-content{
+    margin: 0% 30%;
+    line-height: 25px;
+}
+.story-content h1 {
+    padding-top: 5%;
+}

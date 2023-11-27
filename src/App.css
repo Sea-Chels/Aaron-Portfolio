@@ -1,38 +1,96 @@
+:root{
+  --main-font: 'Nanum Myeongjo', serif; 
+  --second-font: 'Fira Sans', sans-serif;
+  --third-font: 'Chakra Petch', sans-serif;
+  --light: white;
+  --dark: #211a1a;
+  --pop: #ff5633;
+}
+html{
+  background-color: var(--dark);
+}
 .App {
   text-align: center;
 }
+/* Error 404 page __________________________________________________ */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error-pg {
+  text-align: center;
+  background-color: var(--light);
+  padding-bottom: 100px;
+}
+.error-pg img {
+  height: 70vh;
+  width: 70%;
+  object-fit: cover;
+  padding-top: 5%;
+  background-color: var(--light);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.error-pg p, .error-pg a{
+  background-color: var(--light);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Galleries __________________________________________________ */
+.work-title{
+  color: var(--light);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: right;
+  padding-right: 15%;
+  font-family: var(--main-font);
+  font-size: 3em;
+  line-height: 0px;
+}
+.art-content{
+  padding: 0px 5%;
+  text-align: center;
+}
+Image.PreviewGroup, .artwork{
+  width: 265px !important;
+  height: 265px !important;
+  object-fit: cover !important;
+}
+
+/* Footer __________________________________________________ */
+
+.footer-container{
+  text-align: center;
+  color: var(--light);
+  font-family: var(--main-font);
+  padding: 10%;
+}
+.ft-contact{
+  display: flex;
+  flex-wrap: space-between;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.ft-contact-item{
+  margin: 0px 20px;
+}
+.ft-contact-item > p, .ft-contact-item > h3 {
+  line-height: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+/* for safety */ 
+@media print {
+  html,
+  body {
+     display: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ____________ */
+
+body {
+  animation: fadeInAnimation ease 2s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  100% {
+      opacity: 1;
+   }
 }
