@@ -1,0 +1,32 @@
+.contact{
+    background-color: var(--dark);
+    color: var(--light);
+    height: 100vh;
+}
+.contact-content{
+    text-align: center;
+    padding: 0% 10%;
+    color: var(--light);
+}
+.contact-content > p {
+    margin: 0px 20%;
+}
+.contact-title {
+    text-align: center !important;
+    font-family: var(--main-font);
+}
+.icons{
+    padding: 0px 20px;
+    color: var(--light);
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin: 20vh;
+}
+
+.icons:hover{
+    color: var(--pop);
+}

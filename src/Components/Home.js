@@ -3,11 +3,13 @@ import TopNav from './TopNav';
 import './css/home.css'
 
 const Home = () => {
+  const { useState } = React;
+  const [background, setBackground] = useState('');
   return (
-    <div>
+    <div className={`home-main-container ${background}`}>
         <TopNav />
         <div id='home-container'>
-          <a href='/story' id='home-text'><p>SPUD MD</p></a>
+          <a href='/story' id={`home-text`} onMouseOver={() => setBackground('home-text-hover')}  onMouseOut={() => setBackground('')}><p>SPUD MD</p></a>
         </div>
     </div>
   )

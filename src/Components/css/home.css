@@ -1,3 +1,6 @@
+.home-main-container{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../../Media/Covers/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpg')
+}
 #home-container{
     display: flex;  
     justify-content: center;
@@ -14,4 +17,8 @@
 }
 #home-text :hover{
     border-bottom: var(--light) solid 1px;
+}
+
+.home-text-hover{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../../Media/Covers/main_cover.png');
 }

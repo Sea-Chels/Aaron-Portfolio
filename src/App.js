@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from './Components/Home';
-import Works from './Components/Works';
+import ArtNav from './Components/ArtNav';
 import Story from './Components/Story';
 import Contact from './Components/Contact';
 import Shop from './Components/Shop';
@@ -17,7 +17,7 @@ function App() {
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-        <Route path="/works" element={<Works />} />
+        <Route path="/works" element={<ArtNav />} />
           <Route path="/works/wall" element={<Walls />} />
           <Route path="/works/illustration" element={<Illustrations  />} />
           <Route path="/works/canvas" element={<Canvases />} />

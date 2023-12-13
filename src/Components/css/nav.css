@@ -18,8 +18,8 @@
 .top-nav-item {
     text-decoration: none;
     padding: 10px;
-    font-size: .9em;
     color: var(--light);
+    font-size: .9em;
 }
 .TopNav :hover{ 
     color: var(--pop);
@@ -31,8 +31,9 @@
    position: fixed !important;
    height: 100vh;
    width: 100vw;
-   background-color: var(--dark);
-   background-color: rgb(229, 110, 26);
+   background:  linear-gradient(0deg, rgba(84, 53, 6, 0.6), rgba(191, 157, 132, 0.504)), url('../../Media/Covers/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpg');
+   transition: background-color ease .5s;
+   color: var(--light);
    top: 0;
    z-index: -100;
 }
@@ -48,8 +49,8 @@
     text-decoration: none;
     font-family: var(--third-font);
     font-size: 3em;
-    margin: 0px 2%;
     color: var(--light);
+    margin: 0px 2%;
 }
 
 .art-nav-item:hover {
@@ -62,17 +63,17 @@
 }
 
 .wall-hover{
-    background-color: red !important;
-    transition: .2s;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../../Media/Covers/walls-cover.jpg');
+    transition: 2s ease-in;
 }
 
 .illustration-hover{
-background-color: green !important;
-transition: .2s;
+    background: url('../../Media/Covers/Dark-Texture.jpg');
+    transition: 2s ease-in;
 }
 
 .canvas-hover{
-    background-color: purple !important;
-    transition: .2s;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../Media/Covers/canvas-cover.jpg');
+     transition: 2s ease-in;
 }
     

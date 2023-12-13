@@ -4,10 +4,11 @@
   --third-font: 'Chakra Petch', sans-serif;
   --light: white;
   --dark: #211a1a;
-  --pop: #ff5633;
+  --pop: rgb(229, 110, 26);
 }
 html{
   background-color: var(--dark);
+  color: var(--light);
 }
 .App {
   text-align: center;
@@ -49,6 +50,18 @@ Image.PreviewGroup, .artwork{
   width: 265px !important;
   height: 265px !important;
   object-fit: cover !important;
+}
+.work-img-container{
+  text-align: right;
+  text-align: center;
+  padding-right: 15%;
+
+  
+}
+.come-back-later{
+  height: 63vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
 /* Footer __________________________________________________ */
