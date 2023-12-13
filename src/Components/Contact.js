@@ -16,11 +16,11 @@ const Contact = () => {
         </p>
       </div>
       <div className='icon-container'>
-        <a className='icons' href='https://www.instagram.com' target="_blank" rel="noreferrer"><InstagramOutlined /></a>
-        <a className='icons' href='https://www.linkedin.com'><LinkedinOutlined /></a>
-        <a className='icons' href='https://www.behance.com' target="_blank" rel="noreferrer"><BehanceSquareOutlined /></a>
+        <a className='icons' href='https://www.instagram.com/spud_md/?hl=en' target="_blank" rel="noreferrer"><InstagramOutlined /></a>
+        <a className='icons' href='https://www.linkedin.com/in/aaron-henderson-894760164/'><LinkedinOutlined /></a>
+        <a className='icons' href='https://www.behance.net/aaronhenderson97?tracking_source=search_users' target="_blank" rel="noreferrer"><BehanceSquareOutlined /></a>
         <a className='icons' href='https://www.twitter.com' target="_blank" rel="noreferrer"><TwitterOutlined /></a>
-        <a className='icons' href='mailto:ink.aaron@gmail.com' target="_blank" rel="noreferrer"><MailOutlined /></a>
+        <a className='icons' href='mailto:workwithspudmd@gmail.com' target="_blank" rel="noreferrer"><MailOutlined /></a>
       </div>
     </div>
   )
