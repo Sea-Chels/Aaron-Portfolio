@@ -36,11 +36,9 @@ const ArtNav = () => {
 
     useEffect(()=> {
       for (const item of Object.entries(b)) {
-        const [, itemData] = item
-        console.log('useEffect forloop 1:', itemData)
+        const [, itemData] = item;
         if(itemData.selected) {
           setClassList(itemData.class);
-          console.log('useEffect forloop 2:', itemData.class)
         }
       };
     }, [b])
