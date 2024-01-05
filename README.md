@@ -1,6 +1,6 @@
 # React.js Portfolio
 
-Hello! This is my portfolio. It displays this artists' work, and their history. 
+Hello! This is a portfolio. It displays this artists' work, and their history. 
 
 To get started using this repository, please see the details below.
 
