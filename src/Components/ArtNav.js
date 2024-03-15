@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import TopNav from './TopNav';
 import './css/nav.css';
 
@@ -16,43 +17,66 @@ const basicBackgroundObject = {
     class: 'canvas-hover'
   }
 }
+
 const ArtNav = () => {
   const [b, setB] = React.useState(basicBackgroundObject);
   const [classList, setClassList] = React.useState('');
-  const changeBackgroundImg = s => { 
-        const newBackgroundObject = b;
-        for (const [key, value] of Object.entries(newBackgroundObject)) {
-          if(key === s){
-          value.selected = true;
-          } else {
-            value.selected = false;
-          }
-        }
-          if(s === 'main'){
-            setClassList('');
-          }
-          return setB({...newBackgroundObject});
-      };
 
-    useEffect(()=> {
-      for (const item of Object.entries(b)) {
-        const [, itemData] = item;
-        if(itemData.selected) {
-          setClassList(itemData.class);
-        }
-      };
-    }, [b])
+  const changeBackgroundImg = (s) => { 
+    const newBackgroundObject = { ...b };
+    for (const key in newBackgroundObject) {
+      if (key === s) {
+        newBackgroundObject[key].selected = true;
+      } else {
+        newBackgroundObject[key].selected = false;
+      }
+    }
+    if (s === 'main') {
+      setClassList('');
+    }
+    setB(newBackgroundObject);
+  };
+
+  useEffect(() => {
+    for (const item of Object.values(b)) {
+      if (item.selected) {
+        setClassList(item.class);
+        break;
+      }
+    }
+  }, [b]);
 
   return (
     <div className={`art-nav-container ${classList}`}>
-        <TopNav />
-        <div className='art-nav'>
-            <a onMouseOver={() => changeBackgroundImg('walls')}  onMouseOut={() => changeBackgroundImg('main')} className='art-nav-item' href='/works/wall' >Walls</a>
-            <a onMouseOver={() => changeBackgroundImg('illustration')} onMouseOut={() => changeBackgroundImg('main')}className='art-nav-item' href='/works/illustration'>Illustrations</a>
-            <a onMouseOver={() => changeBackgroundImg('canvas')} onMouseOut={() => changeBackgroundImg('main')}className='art-nav-item' href='/works/canvas'>Canvases</a>
+      <TopNav />
+      <div className='art-nav'>
+        <Link
+          to='/works/wall'
+          onMouseOver={() => changeBackgroundImg('walls')}
+          onMouseOut={() => changeBackgroundImg('main')}
+          className='art-nav-item'
+        >
+          Walls
+        </Link>
+        <Link
+          to='/works/illustration'
+          onMouseOver={() => changeBackgroundImg('illustration')}
+          onMouseOut={() => changeBackgroundImg('main')}
+          className='art-nav-item'
+        >
+          Illustrations
+        </Link>
+        <Link
+          to='/works/canvas'
+          onMouseOver={() => changeBackgroundImg('canvas')}
+          onMouseOut={() => changeBackgroundImg('main')}
+          className='art-nav-item'
+        >
+          Canvases
+        </Link>
       </div>
     </div>
-  )
+  );
 }
 
-export default ArtNav
+export default ArtNav; 

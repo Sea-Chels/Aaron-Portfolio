@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import ArtNav from './Components/ArtNav';
@@ -6,49 +7,26 @@ import Story from './Components/Story';
 import Contact from './Components/Contact';
 import Shop from './Components/Shop';
 import NoPage from './Components/NoPage';
-import Illustrations from './Components/Illustrations';
-import Walls from './Components/Walls';
-import Canvases from './Components/Canvases';
+import Illustrations from "./Components/Illustrations";
+import Walls from "./Components/Walls";
+import Canvases from "./Components/Canvases";
 
 function App() {
-  const [currentRoute, setCurrentRoute] = useState(window.location.pathname);
-
-  useEffect(() => {
-    const handleRouteChange = () => {
-      setCurrentRoute(window.location.pathname);
-    };
-
-    window.addEventListener('popstate', handleRouteChange);
-
-    return () => {
-      window.removeEventListener('popstate', handleRouteChange);
-    };
-  }, []);
-
-  const renderRoute = () => {
-    switch (currentRoute) {
-      case '/':
-        return <Home />;
-      case '/works':
-        return <ArtNav />;
-      case '/works/wall':
-        return <Walls />;
-      case '/works/illustration':
-        return <Illustrations />;
-      case '/works/canvas':
-        return <Canvases />;
-      case '/story':
-        return <Story />;
-      case '/contact':
-        return <Contact />;
-      case '/shop':
-        return <Shop />;
-      default:
-        return <NoPage />;
-    }
-  };
-
-  return <div>{renderRoute()}</div>;
+  return (
+    <Router basename="/">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/works" element={<ArtNav />} />
+        <Route path="/works/wall" element={<Walls />} />
+        <Route path="/works/illustration" element={<Illustrations />} />
+        <Route path="/works/canvas" element={<Canvases />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
