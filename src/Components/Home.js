@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import TopNav from './TopNav';
 import './css/home.css'
 
@@ -9,10 +10,10 @@ const Home = () => {
     <div className={`home-main-container ${background}`}>
         <TopNav />
         <div id='home-container'>
-          <a href='/story' id={`home-text`} onMouseOver={() => setBackground('home-text-hover')}  onMouseOut={() => setBackground('')}><p>SPUD MD</p></a>
+          <Link to="/story" id={`home-text`} onMouseOver={() => setBackground('home-text-hover')}  onMouseOut={() => setBackground('')}><p>SPUD MD</p></Link>
         </div>
     </div>
   )
 }
 
-export default Home
+export default Home;

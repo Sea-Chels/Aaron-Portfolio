@@ -46,12 +46,20 @@ const ArtNav = () => {
     }
   }, [b]);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className={`art-nav-container ${classList}`}>
       <TopNav />
       <div className='art-nav'>
         <Link
           to='/works/wall'
+          onClick={scrollToTop}
           onMouseOver={() => changeBackgroundImg('walls')}
           onMouseOut={() => changeBackgroundImg('main')}
           className='art-nav-item'
@@ -60,6 +68,7 @@ const ArtNav = () => {
         </Link>
         <Link
           to='/works/illustration'
+          onClick={scrollToTop}
           onMouseOver={() => changeBackgroundImg('illustration')}
           onMouseOut={() => changeBackgroundImg('main')}
           className='art-nav-item'
@@ -68,6 +77,7 @@ const ArtNav = () => {
         </Link>
         <Link
           to='/works/canvas'
+          onClick={scrollToTop}
           onMouseOver={() => changeBackgroundImg('canvas')}
           onMouseOut={() => changeBackgroundImg('main')}
           className='art-nav-item'
@@ -79,4 +89,4 @@ const ArtNav = () => {
   );
 }
 
-export default ArtNav; 
+export default ArtNav;
