@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ddfa378.css",
-    "main.js": "/static/js/main.1e1d0161.js",
+    "main.css": "/static/css/main.bec4f7cb.css",
+    "main.js": "/static/js/main.a6550b13.js",
     "static/media/canvas-cover.jpg": "/static/media/canvas-cover.f13e1d38cda9f02972fb.jpg",
     "static/media/error-pg.gif": "/static/media/error-pg.1ddbdead3473aecd38dd.gif",
     "static/media/Dark-Texture.jpg": "/static/media/Dark-Texture.19954bbafc305b78a8a2.jpg",
-    "static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpg": "/static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.58a58d75bd7b7352d013.jpg",
     "static/media/canvas7.png": "/static/media/canvas7.578bf2f3c1b93b8c6bce.png",
     "static/media/walls-cover.jpg": "/static/media/walls-cover.7a2c983925dff52f7ee4.jpg",
     "static/media/canvas2.png": "/static/media/canvas2.21fadd863a59e9e37210.png",
@@ -18,6 +17,7 @@
     "static/media/canvas1.png": "/static/media/canvas1.2c7416a1b6b53fb59855.png",
     "static/media/canvas3.png": "/static/media/canvas3.963fc0e5b251500e6751.png",
     "static/media/profile-photo.png": "/static/media/profile-photo.b04bc3f1cf0726b96626.png",
+    "static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpeg": "/static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.d32a36f6f2f84a673323.jpeg",
     "static/media/VOL-2-mock-up-2.png": "/static/media/VOL-2-mock-up-2.7b8e78efee4857ffb74d.png",
     "static/media/tyler-poster.png": "/static/media/tyler-poster.6fd9a5c5594dc4621c10.png",
     "static/media/weekend-poster-11x14.png": "/static/media/weekend-poster-11x14.756e7f8e14ef75496c68.png",
@@ -38,11 +38,11 @@
     "static/media/3444.jpeg": "/static/media/3444.6a9e13bfc699005d0eef.jpeg",
     "static/media/02-Poster.jpeg": "/static/media/02-Poster.54db95542dd10ffef416.jpeg",
     "index.html": "/index.html",
-    "main.4ddfa378.css.map": "/static/css/main.4ddfa378.css.map",
-    "main.1e1d0161.js.map": "/static/js/main.1e1d0161.js.map"
+    "main.bec4f7cb.css.map": "/static/css/main.bec4f7cb.css.map",
+    "main.a6550b13.js.map": "/static/js/main.a6550b13.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ddfa378.css",
-    "static/js/main.1e1d0161.js"
+    "static/css/main.bec4f7cb.css",
+    "static/js/main.a6550b13.js"
   ]
 }
