@@ -14,7 +14,7 @@ import Canvases from "./Components/Canvases";
 function App() {
 
   return (
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/works" element={<ArtNav />} />
