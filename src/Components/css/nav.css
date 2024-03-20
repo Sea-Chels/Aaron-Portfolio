@@ -63,17 +63,17 @@
 }
 
 .wall-hover{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../../Media/Covers/walls-cover.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../../Media/Covers/walls-cover.jpeg');
     transition: 2s ease-in;
 }
 
 .illustration-hover{
-    background: url('../../Media/Covers/Dark-Texture.jpg');
+    background: url('../../Media/Covers/Dark-Texture.jpeg');
     transition: 2s ease-in;
 }
 
 .canvas-hover{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../Media/Covers/canvas-cover.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../Media/Covers/canvas-cover.jpeg');
      transition: 2s ease-in;
 }
     
