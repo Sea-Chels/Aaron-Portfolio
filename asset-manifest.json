@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f07b603.css",
+    "main.css": "/static/css/main.ed32a5a7.css",
     "main.js": "/static/js/main.5f2bc830.js",
-    "static/media/canvas-cover.jpg": "/static/media/canvas-cover.f13e1d38cda9f02972fb.jpg",
     "static/media/error-pg.gif": "/static/media/error-pg.1ddbdead3473aecd38dd.gif",
-    "static/media/Dark-Texture.jpg": "/static/media/Dark-Texture.19954bbafc305b78a8a2.jpg",
     "static/media/canvas7.png": "/static/media/canvas7.578bf2f3c1b93b8c6bce.png",
-    "static/media/walls-cover.jpg": "/static/media/walls-cover.7a2c983925dff52f7ee4.jpg",
     "static/media/canvas2.png": "/static/media/canvas2.21fadd863a59e9e37210.png",
     "static/media/canvas8.png": "/static/media/canvas8.aab74f084e12272de4c5.png",
     "static/media/canvas4.png": "/static/media/canvas4.9b35b22ce1e9e483b577.png",
@@ -17,6 +14,8 @@
     "static/media/canvas1.png": "/static/media/canvas1.2c7416a1b6b53fb59855.png",
     "static/media/canvas3.png": "/static/media/canvas3.963fc0e5b251500e6751.png",
     "static/media/profile-photo.png": "/static/media/profile-photo.b04bc3f1cf0726b96626.png",
+    "static/media/Dark-Texture.jpeg": "/static/media/Dark-Texture.20440416864df53ae573.jpeg",
+    "static/media/canvas-cover.jpeg": "/static/media/canvas-cover.760e903d46c587ccd746.jpeg",
     "static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpeg": "/static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.d32a36f6f2f84a673323.jpeg",
     "static/media/VOL-2-mock-up-2.png": "/static/media/VOL-2-mock-up-2.7b8e78efee4857ffb74d.png",
     "static/media/tyler-poster.png": "/static/media/tyler-poster.6fd9a5c5594dc4621c10.png",
@@ -28,6 +27,7 @@
     "static/media/02_CD Envelope Mock-up 2.png": "/static/media/02_CD Envelope Mock-up 2.3c309836f867ec95a8ac.png",
     "static/media/Big_Jonnyk-One-more-time.png": "/static/media/Big_Jonnyk-One-more-time.630738c91460867efb77.png",
     "static/media/2P poster mockup.png": "/static/media/2P poster mockup.3946b55ac5dcaac82caf.png",
+    "static/media/walls-cover.jpeg": "/static/media/walls-cover.1fa534c962a21449f206.jpeg",
     "static/media/1999.jpg": "/static/media/1999.dddcc5fbebcc6996842f.jpg",
     "static/media/ATTICUS-LOARD-PNG.png": "/static/media/ATTICUS-LOARD-PNG.5ee1f8650bcb45b9da7b.png",
     "static/media/Beat box-remix-final.png": "/static/media/Beat box-remix-final.af4f3f473e1334bcd213.png",
@@ -38,11 +38,11 @@
     "static/media/3444.jpeg": "/static/media/3444.6a9e13bfc699005d0eef.jpeg",
     "static/media/02-Poster.jpeg": "/static/media/02-Poster.54db95542dd10ffef416.jpeg",
     "index.html": "/index.html",
-    "main.9f07b603.css.map": "/static/css/main.9f07b603.css.map",
+    "main.ed32a5a7.css.map": "/static/css/main.ed32a5a7.css.map",
     "main.5f2bc830.js.map": "/static/js/main.5f2bc830.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f07b603.css",
+    "static/css/main.ed32a5a7.css",
     "static/js/main.5f2bc830.js"
   ]
 }
