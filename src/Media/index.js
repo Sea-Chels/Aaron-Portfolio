@@ -29,7 +29,7 @@ import volume2Num2 from './Illustrations/VOL-2-mock-up-2.png';
 import mockup from './Illustrations/mock-up.jpg';
 import tylerPoster from './Illustrations/tyler-poster.png'
 import weekendPoster from './Illustrations/weekend-poster-11x14.png'
-
+import Gundam from './Illustrations/Gundam_Warm_UP.jpg'
 export const illustration = [
     {
         path: weekendPoster,
@@ -106,6 +106,11 @@ export const illustration = [
     {
         path: gengar,
         alt: 'gengar', 
+    },
+    {
+        path:Gundam,
+        alt: 'gundam',
+    
     }
 ]
 export const wall = []
