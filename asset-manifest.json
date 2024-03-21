@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ed32a5a7.css",
-    "main.js": "/static/js/main.5f2bc830.js",
+    "main.js": "/static/js/main.1e9e7639.js",
     "static/media/error-pg.gif": "/static/media/error-pg.1ddbdead3473aecd38dd.gif",
     "static/media/canvas7.png": "/static/media/canvas7.578bf2f3c1b93b8c6bce.png",
     "static/media/canvas2.png": "/static/media/canvas2.21fadd863a59e9e37210.png",
@@ -15,6 +15,7 @@
     "static/media/canvas3.png": "/static/media/canvas3.963fc0e5b251500e6751.png",
     "static/media/profile-photo.png": "/static/media/profile-photo.b04bc3f1cf0726b96626.png",
     "static/media/Dark-Texture.jpeg": "/static/media/Dark-Texture.20440416864df53ae573.jpeg",
+    "static/media/Gundam_Warm_UP.jpg": "/static/media/Gundam_Warm_UP.22513086f200f91826a9.jpg",
     "static/media/canvas-cover.jpeg": "/static/media/canvas-cover.760e903d46c587ccd746.jpeg",
     "static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.jpeg": "/static/media/different-brushstrokes-of-golden-paint-drawn-on-gr-2023-11-27-05-13-58-utc.d32a36f6f2f84a673323.jpeg",
     "static/media/VOL-2-mock-up-2.png": "/static/media/VOL-2-mock-up-2.7b8e78efee4857ffb74d.png",
@@ -39,10 +40,10 @@
     "static/media/02-Poster.jpeg": "/static/media/02-Poster.54db95542dd10ffef416.jpeg",
     "index.html": "/index.html",
     "main.ed32a5a7.css.map": "/static/css/main.ed32a5a7.css.map",
-    "main.5f2bc830.js.map": "/static/js/main.5f2bc830.js.map"
+    "main.1e9e7639.js.map": "/static/js/main.1e9e7639.js.map"
   },
   "entrypoints": [
     "static/css/main.ed32a5a7.css",
-    "static/js/main.5f2bc830.js"
+    "static/js/main.1e9e7639.js"
   ]
 }
